@@ -18,11 +18,11 @@ class Produk {
 
   void tampilkanInformasiProduk() {
     print('Nama Produk: $namaProduk');
-    print('Harga Produk: $harga');
+    print('Harga Produk: Rp. $harga');
     print('Jumlah Beli: $jumlah');
     print('Diskon: ${diskon * 100}%');
-    print('Total Harga Tanpa Diskon: ${hitungTotalHargaTanpaDiskon()}');
-    print('Total Harga Setelah Diskon: ${hitungTotalHargaSetelahDiskon()}');
+    print('Total Harga Tanpa Diskon: Rp. ${hitungTotalHargaTanpaDiskon()}');
+    print('Total Harga Setelah Diskon: Rp. ${hitungTotalHargaSetelahDiskon()}');
   }
 }
 
@@ -66,8 +66,8 @@ void main() {
     produk.tampilkanInformasiProduk();
     print('-----------------------------------------');
   }
-  print('\nTotal Harga Tanpa Diskon: $totalHargaTanpaDiskon');
-  print('Total Harga Yang Harus Dibayar: $totalHargaSetelahDiskon');
+  print('\nTotal Harga Tanpa Diskon: Rp. $totalHargaTanpaDiskon');
+  print('Total Harga Yang Harus Dibayar: Rp. $totalHargaSetelahDiskon');
   print('\n');
   print('\nTerima kasih telah berbelanja di toko kami!');
   print('\n');
