@@ -61,10 +61,11 @@ void main() {
   }
 
   print('\nNota Pembelian:');
+  print('\n');
   for (var produk in daftarProduk) {
     produk.tampilkanInformasiProduk();
     print('-----------------------------------------');
   }
-  print('Total Harga Tanpa Diskon: $totalHargaTanpaDiskon');
+  print('\nTotal Harga Tanpa Diskon: $totalHargaTanpaDiskon');
   print('Total Harga Yang Harus Dibayar: $totalHargaSetelahDiskon');
 }
