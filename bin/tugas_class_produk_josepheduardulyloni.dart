@@ -60,15 +60,16 @@ void main() {
     totalHargaSetelahDiskon += produk.hitungTotalHargaSetelahDiskon();
   }
 
-  print('\nNota Pembelian:');
-  print('\n');
+  print('--------------------------------------------------');
+  print('\t         Nota Pembelian');
+  print('--------------------------------------------------');
   for (var produk in daftarProduk) {
     produk.tampilkanInformasiProduk();
-    print('-----------------------------------------');
+    print('--------------------------------------------------');
   }
   print('\nTotal Harga Tanpa Diskon: Rp. $totalHargaTanpaDiskon');
   print('Total Harga Yang Harus Dibayar: Rp. $totalHargaSetelahDiskon');
-  print('\n');
+  print('\n--------------------------------------------------');
   print('\nTerima kasih telah berbelanja di toko kami!');
-  print('\n');
+  print('\n--------------------------------------------------');
 }
