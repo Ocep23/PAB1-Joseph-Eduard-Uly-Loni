@@ -66,6 +66,9 @@ void main() {
     produk.tampilkanInformasiProduk();
     print('-----------------------------------------');
   }
-  print('Total Harga Tanpa Diskon: $totalHargaTanpaDiskon');
+  print('\nTotal Harga Tanpa Diskon: $totalHargaTanpaDiskon');
   print('Total Harga Yang Harus Dibayar: $totalHargaSetelahDiskon');
+  print('\n');
+  print('\nTerima kasih telah berbelanja di toko kami!');
+  print('\n');
 }
